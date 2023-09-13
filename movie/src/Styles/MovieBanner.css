@@ -1,0 +1,77 @@
+.Banner{
+    height: 60vh;
+    width: 100%;
+    color: white;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    transition: all 2s ease-out;
+}
+
+.Full_Banner{
+    height: 100vh;
+}
+
+.Banner_Contents{
+    margin-left: 5%;
+    padding-top: 140px;
+    height:190px;
+}
+
+.Banner_Title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0 0 0 -0.5rem;
+    padding-bottom: 0.3rem;
+    text-align: left;
+}
+
+.Banner_Description{
+   text-align: justify;
+   width:45rem;
+   line-height: 1.3;
+   padding-top: 1rem;
+   font-size: 1rem; 
+   max-width: 360px;
+   height: 80px;
+}
+
+.Banner_Button{
+    color:white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    margin-top: 0;
+    padding: 0.5rem 2rem;
+    background-color: rgba(128,128,128,0.5);
+}
+
+.Banner_Button:hover{
+    color:black;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+@media only screen and (max-width: 780px) {
+    .Banner{
+        height: 53.5vh;
+        transition: all 2s ease 500ms;
+    }
+    
+    .Full_Banner{
+    height: 100vh;
+    }
+
+    .Banner_Description{
+        font-size: 0.8rem; 
+        width: 50vw;
+    }
+    .Banner_Title{
+        font-size: 1.5rem;
+        margin-left: 1%;
+    }
+    .Banner_Button{
+        padding: 0.2rem 1rem;
+    }
+}

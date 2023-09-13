@@ -1,0 +1,124 @@
+.Modal_Blur{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    inset: 0;
+}
+
+.Modal{
+    margin: 3.5% auto;
+    width: 50vw;
+    height: 90%;
+    background-color: black;
+    border:0.1px solid grey;
+    border-radius: 0.2vw;
+}
+
+.Modal_Contents{
+    width: 100%;
+    height: 98%;
+    margin: 1% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Modal_Media{
+    width: 90%;
+    height: 60%;
+    margin: 0% auto;
+}
+
+.Modal_Player{
+    width: 100%;
+    height: 85%;
+}
+
+.Modal_Buttons{
+    display: flex;
+    justify-content:center;
+}
+
+.Youtube{
+    width: 100%;
+    height: 100%;
+}
+
+.Poster_Div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Video_Div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Poster_Div>img{ 
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Modal_Details{
+    width: 90%;
+    height: 40%;
+    margin: 0.5% auto;
+    overflow: hidden;
+}
+
+.Modal_Buttons>button{
+    background-color: slateblue;
+    border: none;
+    outline: none;
+    margin: 1.8%;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5vw;
+    width: 3rem;
+}
+
+.Modal_Buttons>button:hover{
+    background-color: royalblue;
+}
+
+.Modal_Details>h3{
+    margin-top: 2%;
+    font-weight: 300;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.Modal_Details>h3>span{
+    color:slateblue;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.Video_Div>iframe{
+    border:none;
+    outline: none;
+}
+
+@media  only screen and (max-width: 780px) {
+    .Modal{
+        width: 80vw;
+        left: 11%;
+        margin: 15% auto;
+    }
+    .Modal_Details>h3>span, .Modal_Details>h3{
+        font-size: 1rem;
+        text-align: justify;
+    } 
+    .Modal_Buttons>button{
+        margin: 2.8%;
+    }
+    .Modal_Details{
+        margin-top: 9%;
+    }
+       
+}

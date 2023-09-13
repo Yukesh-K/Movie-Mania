@@ -1,0 +1,32 @@
+.Nav{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+    transition: all 0.5s ease-in;
+}
+  
+.Nav_Black{
+    background-color: black;
+}
+  
+.Nav_Contents{
+    display: flex;
+    justify-content: space-between;
+}
+  
+.Logo{
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+  
+.Profile{
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    width: 30px;
+    cursor: pointer;
+}

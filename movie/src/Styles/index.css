@@ -1,0 +1,16 @@
+@import "MovieNavbar.css";
+@import "MovieBanner.css";
+@import "MovieModal.css";
+@import "MovieRow.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.App {
+    background-color: black;
+    height: 100%;
+}
+    
